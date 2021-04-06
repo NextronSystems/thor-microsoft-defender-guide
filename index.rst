@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to THOR Cloud Microsoft Defender ATP's documentation!
+THOR with Microsoft Defender ATP Integration Guide
 =============================================================
 
 .. toctree::
