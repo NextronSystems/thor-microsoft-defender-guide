@@ -1,0 +1,345 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>3. Start a THOR Scan &mdash; THOR Cloud Microsoft Defender ATP  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="4. FAQs" href="faqs.html" />
+    <link rel="prev" title="2. Retrieve and Configure THOR Seed" href="retrieve-and-configure-thor-seed.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> THOR Cloud Microsoft Defender ATP
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="requirements.html">1. Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="retrieve-and-configure-thor-seed.html">2. Retrieve and Configure THOR Seed</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">3. Start a THOR Scan</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#start-a-live-response-session">3.1. Start a Live Response Session</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#upload-thor-seed">3.2. Upload THOR Seed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#run-thor-seed">3.3. Run THOR Seed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#interrupted-thor-seed-sessions">3.4. Interrupted THOR Seed Sessions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#check-the-scan-status">3.4.1. Check the Scan Status</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#detect-a-finished-scan">3.4.2. Detect a Finished Scan</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#retrieve-the-results">3.5. Retrieve the Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cleanup">3.6. Cleanup</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="faqs.html">4. FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="links-and-references.html">5. Links and References</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">THOR Cloud Microsoft Defender ATP</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>3. Start a THOR Scan</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/usage/start-a-thor-scan.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="start-a-thor-scan">
+<h1>3. Start a THOR Scan<a class="headerlink" href="#start-a-thor-scan" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="start-a-live-response-session">
+<h2>3.1. Start a Live Response Session<a class="headerlink" href="#start-a-live-response-session" title="Permalink to this headline">¶</a></h2>
+<p>You find different locations in Microsoft Defender Security Center that
+allow you to initiate a Live Response session.</p>
+<div class="figure" id="id1">
+<a class="reference external image-reference" href="../_images/image9.png"><img alt="Initiate Live Response Session" src="../_images/image9.png" /></a>
+<p class="caption"><span class="caption-text">Initiate Live Response Session</span></p>
+</div>
+</div>
+<div class="section" id="upload-thor-seed">
+<h2>3.2. Upload THOR Seed<a class="headerlink" href="#upload-thor-seed" title="Permalink to this headline">¶</a></h2>
+<p>Use the button in the upper right corner of the window to upload
+“thor-seed.ps1” into the Live Response script library.</p>
+<div class="figure" id="id2">
+<a class="reference external image-reference" href="../_images/image10.png"><img alt="Upload Button" src="../_images/image10.png" /></a>
+<p class="caption"><span class="caption-text">Upload Button</span></p>
+</div>
+<p>Make sure to check “Overwrite file” to replace an older version of THOR
+Seed in your library.</p>
+<div class="figure" id="id3">
+<a class="reference external image-reference" href="../_images/image11.png"><img alt="Upload THOR Seed" src="../_images/image11.png" /></a>
+<p class="caption"><span class="caption-text">Upload THOR Seed</span></p>
+</div>
+</div>
+<div class="section" id="run-thor-seed">
+<h2>3.3. Run THOR Seed<a class="headerlink" href="#run-thor-seed" title="Permalink to this headline">¶</a></h2>
+<p>After uploading THOR Seed to the Live Response script library, you can
+start the script with the “run” command.</p>
+<div class="figure" id="id4">
+<a class="reference external image-reference" href="../_images/image12.png"><img alt="Run thor-seed.ps1 in Live Response session" src="../_images/image12.png" /></a>
+<p class="caption"><span class="caption-text">Run thor-seed.ps1 in Live Response session</span></p>
+</div>
+</div>
+<div class="section" id="interrupted-thor-seed-sessions">
+<h2>3.4. Interrupted THOR Seed Sessions<a class="headerlink" href="#interrupted-thor-seed-sessions" title="Permalink to this headline">¶</a></h2>
+<p>Microsoft Defender Security Center allows scripts a run time of a
+maximum of 30 minutes and then terminates the script. However, the sub
+process “thor64.exe” is still running.</p>
+<div class="figure" id="id5">
+<a class="reference external image-reference" href="../_images/image13.png"><img alt="Interrupted scan due to exceeded timeout" src="../_images/image13.png" /></a>
+<p class="caption"><span class="caption-text">Interrupted scan due to exceeded timeout</span></p>
+</div>
+<div class="section" id="check-the-scan-status">
+<h3>3.4.1. Check the Scan Status<a class="headerlink" href="#check-the-scan-status" title="Permalink to this headline">¶</a></h3>
+<p>In THOR Seed versions before v0.18, it was difficult to get the scan
+status of THOR in the background or find the log files that THOR
+produces during the scan and the HTML report that is generated at the
+end of the scan.</p>
+<p>Users can check of THOR is still running with</p>
+<div class="code bash highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">processes</span> <span class="o">-</span><span class="n">name</span> <span class="n">thor64</span><span class="o">.</span><span class="n">exe</span>
+</pre></div>
+</div>
+<p>Since THOR Seed version 0.18 you just run thor-seed.ps1 again and will
+see the information that THOR is still running, where to find the
+current log file and the last 3 log lines of that file.</p>
+<div class="figure">
+<a class="reference external image-reference" href="../_images/image14.png"><img alt="THOR Seed start while THOR is still running" src="../_images/image14.png" /></a>
+</div>
+<p>Screenshot 11 - THOR Seed start while THOR is still running</p>
+<p>You can run the script as often as you like to get an information on the
+current status of the scan. A normal scan takes between 20 and 180
+minutes to complete.</p>
+</div>
+<div class="section" id="detect-a-finished-scan">
+<h3>3.4.2. Detect a Finished Scan<a class="headerlink" href="#detect-a-finished-scan" title="Permalink to this headline">¶</a></h3>
+<p>The moment that you run “thor-seed.ps1” while “thor64.exe” has finished
+its job in the background, you get a listing of all generated log files
+and HTML reports in the output directory and commands to download them
+and remove them from the end system.</p>
+<p>It shows a list of three actions to proceed:</p>
+<ol class="arabic">
+<li><div class="first line-block">
+<div class="line">Retrieve the available log files and HTML reports</div>
+<div class="line"><strong>get file “C:\ProgramData\Microsoft\Windows Defender Advanced…</strong></div>
+</div>
+</li>
+<li><div class="first line-block">
+<div class="line">Use the following command to clean-up the output directory</div>
+<div class="line"><strong>run thor-seed.ps1 -parameters “-Cleanup”</strong></div>
+</div>
+</li>
+<li><div class="first line-block">
+<div class="line">Start a new THOR scan with</div>
+<div class="line"><strong>run thor-seed.ps1</strong></div>
+</div>
+</li>
+</ol>
+<div class="figure" id="id6">
+<a class="reference external image-reference" href="../_images/image15.png"><img alt="THOR Seed run shows previously finished scan" src="../_images/image15.png" /></a>
+<p class="caption"><span class="caption-text">THOR Seed run shows previously finished scan</span></p>
+</div>
+</div>
+</div>
+<div class="section" id="retrieve-the-results">
+<h2>3.5. Retrieve the Results<a class="headerlink" href="#retrieve-the-results" title="Permalink to this headline">¶</a></h2>
+<p>The output of THOR Seed already contains the right commands to download
+a report after the scan has finished.</p>
+<div class="figure" id="id7">
+<a class="reference external image-reference" href="../_images/image16.png"><img alt="THOR Seed output on a system with finished scan" src="../_images/image16.png" /></a>
+<p class="caption"><span class="caption-text">THOR Seed output on a system with finished scan</span></p>
+</div>
+<p>Simply copy and paste the full “getfile” command line to retrieve the
+HTML report.</p>
+<div class="code bash highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">getfile</span> <span class="s2">&quot;C:</span><span class="se">\\</span><span class="s2">ProgramData</span><span class="se">\\</span><span class="s2">Microsoft</span><span class="se">\\</span><span class="s2">Windows Defender Advanced Threat Protection</span><span class="se">\\</span><span class="s2">Downloads</span><span class="se">\\</span><span class="s2">client-atp-01\_thor\_2021-02-02\_1817.html&quot;</span>
+</pre></div>
+</div>
+<div class="figure" id="id8">
+<a class="reference external image-reference" href="../_images/image17.png"><img alt="HTML Report Download in Browser" src="../_images/image17.png" /></a>
+<p class="caption"><span class="caption-text">HTML Report Download in Browser</span></p>
+</div>
+<div class="figure" id="id9">
+<a class="reference external image-reference" href="../_images/image18.png"><img alt="THOR HTML Report" src="../_images/image18.png" /></a>
+<p class="caption"><span class="caption-text">THOR HTML Report</span></p>
+</div>
+</div>
+<div class="section" id="cleanup">
+<h2>3.6. Cleanup<a class="headerlink" href="#cleanup" title="Permalink to this headline">¶</a></h2>
+<p>In order to run another THOR scan, you have to remove all previous log
+files and HTML reports using the following command:</p>
+<div class="code bash highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">run</span> <span class="n">thor</span><span class="o">-</span><span class="n">seed</span><span class="o">.</span><span class="n">ps1</span> <span class="o">-</span><span class="n">parameters</span> <span class="s2">&quot;-Cleanup&quot;</span>
+</pre></div>
+</div>
+<p>After removing the text logs and HTML reports you can start a new scan
+on this end system.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="faqs.html" class="btn btn-neutral float-right" title="4. FAQs" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="retrieve-and-configure-thor-seed.html" class="btn btn-neutral float-left" title="2. Retrieve and Configure THOR Seed" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2021, Nextron Systems GmbH
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
