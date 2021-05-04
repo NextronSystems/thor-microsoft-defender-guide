@@ -82,7 +82,7 @@ current log file and the last 3 log lines of that file.
    :target: ../_images/image14.png
    :alt: THOR Seed start while THOR is still running
 
-Screenshot 11 - THOR Seed start while THOR is still running
+   THOR Seed start while THOR is still running
 
 You can run the script as often as you like to get an information on the
 current status of the scan. A normal scan takes between 20 and 180

@@ -81,7 +81,7 @@ further below in the section.
 A list of all options can be found here:
 https://github.com/NextronSystems/nextron-helper-scripts/tree/master/thor-help
 
-The THOR manual contains a complete description of most of these
+The `THOR manual <https://thor-manual.nextron-systems.com/en/latest/>`_ contains a complete description of most of these
 features and can downloaded from the “Downloads” section in the Nextron
 customer portal.
 
@@ -100,5 +100,5 @@ expressions.
 
 It’s important to use escaping as it is used in regular expressions to
 escape e.g., back slashes, periods, dollar and asterisk characters. The
-expression is applied to a full log line. The THOR manual has more
+expression is applied to a full log line. The `THOR manual <https://thor-manual.nextron-systems.com/en/latest/>`_ has more
 information on these filters and a list of examples.
