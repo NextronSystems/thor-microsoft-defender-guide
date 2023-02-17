@@ -39,10 +39,8 @@ release = ''
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    #'recommonmark',
-    #'sphinx.ext.intersphinx',
-    #'sphinx.ext.mathjax',
-    #'sphinx.ext.githubpages',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.autosectionlabel'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -79,6 +77,14 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
+
+html_theme_options = {
+    'prev_next_buttons_location': 'both',
+    'style_external_links': True
+}
+
+html_logo = "images/html/thor-logo.png"
+html_favicon = "images/html/favicon.ico"
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -191,3 +197,5 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 
 # Enable -- to -
 smartquotes = False
+autosectionlabel_prefix_document = True
+autosectionlabel_maxdepth = 3
