@@ -6,24 +6,38 @@ Supported Operating Systems
 ---------------------------
 
 The operating systems are limited to the set that supports the Microsoft
-Defender ATP "Live Response" feature. As of the date of this guide it is
-limited to Windows 10 workstations and Windows 2019 server systems.
+Defender ATP "Live Response" feature.
 
 .. list-table:: 
     :header-rows: 1
-    :widths: 50, 50
+    :widths: 30, 70
 
-    * - Windows 10
-      - Windows Server 2019
-    * - Version 1909 or later
+    * - Operating System
+      - Version
+    * - **Windows 10 & 11**
+      - Version 1909 or later
+    * - 
+      - Version 1903 with KB4515384
+    * - 
+      - Version 1809 (RS 5) with with KB4537818
+    * - 
+      - Version 1803 (RS 4) with KB4537795
+    * - 
+      - Version 1709 (RS 3) with KB4537816
+    * - **macOS**
+      - Minimum required version: 101.43.84. Supported for
+        Intel-based and ARM-based macOS devices.
+    * - **Linux**
+      - Minimum required version: 101.45.13
+    * - **Windows Server 2012**
+      - R2 with KB5005292
+    * - **Windows Server 2016**
+      - with KB5005292
+    * - **Windows Server 2019**
       - Version 1903 or (with KB4515384) later
-    * - Version 1903 with KB4515384
+    * - 
       - Version 1809 (with KB4537818)
-    * - Version 1809 (RS 5) with KB4537818
-      - 
-    * - Version 1803 (RS 4) with KB4537795
-      - 
-    * - Version 1709 (RS 3) with KB4537816
+    * - **Windows Server 2022**
       - 
 
 For a current version of the list of supported operating systems, check
