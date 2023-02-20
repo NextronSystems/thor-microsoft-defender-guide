@@ -22,6 +22,22 @@ the thor64.exe process that still runs in the background. It will show
 you information on the log file and print commands that you can use to
 download the log file and HTML report once THOR finished its work.
 
+If ``thor64.exe`` is still running when you start THOR seed, you will
+get information regarding the current scan.
+
+.. figure:: ../images/thor-seed1.png
+   :alt: THOR Seed after timeout
+
+   THOR Seed after timeout
+
+If ``thor64.exe`` is finished, you will get some example commands to
+retrieve your files and clean up the reports of the previous scan.
+
+.. figure:: ../images/thor-seed2.png
+   :alt: THOR Seed after finished scan
+
+   THOR Seed after finished scan
+
 Why can't I see a progress indicator? 
 --------------------------------------
 
