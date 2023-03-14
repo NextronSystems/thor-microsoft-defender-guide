@@ -20,11 +20,11 @@ download links.
 Download THOR Seed in Customer Portal
 -------------------------------------
 
-Every applicable contract in our customer portal shows a certain button
-in the “Actions” column, which leads you to a THOR Seed download page.
+Every applicable contract in our customer portal shows a certain "Cloud" button
+in the ``Actions`` column, which leads you to a THOR Seed download page.
 
 .. figure:: ../images/image4.png
-   :alt: Button that leads to the THOR Seed download page
+   :alt: "Cloud" Button that leads to the THOR Seed download page
 
    Button that leads to the THOR Seed download page
 
