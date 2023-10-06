@@ -6,9 +6,9 @@ Supported Operating Systems
 ---------------------------
 
 The operating systems are limited to the set that supports the Microsoft
-Defender ATP "Live Response" feature.
+Defender for Endpoint "Live Response" feature.
 
-.. list-table:: 
+.. list-table:: Table 1 - Supported Operating Systems
     :header-rows: 1
     :widths: 30, 70
 
@@ -41,24 +41,27 @@ Defender ATP "Live Response" feature.
       - 
 
 For a current version of the list of supported operating systems, check
-the following page:
-
-https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/live-response
+the `following page <https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/live-response>`_.
 
 Enable "Live Response" Feature
 ------------------------------
 
-You need to enable the live response capability in the "Advanced
-Features" settings page for Workstations and Servers.
+You need to enable the `Live Response <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/advanced-features?view=o365-worldwide>`_
+capability in the "Advanced Features" settings page for Workstations
+and Servers.
 
-https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/advanced-features
+Additionally, you need to change the `Live response unsigned script execution <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/advanced-features?view=o365-worldwide#live-response-unsigned-script-execution>`_
+option in the same page, which allows you to run unsigned [1]_ scripts in
+a live response session.
+
+.. [1] thor-seed.ps1 is an unsigned powershell script
 
 Hardware Requirements
 ---------------------
 
 The hardware requirements reflect the scan settings of a default scan.
 
-.. list-table:: Table 1 - Hardware Requirements
+.. list-table:: Table 2 - Hardware Requirements
     :header-rows: 1
     :widths: 50, 50
 
@@ -83,10 +86,11 @@ Network Connections
 For a detailed and up to date list of our update and licensing servers,
 please visit https://www.nextron-systems.com/hosts/.
 
-On Investigated Workstation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+On Investigated Workstations
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. list-table::
+.. list-table:: Table 3 - Remote Hosts
+    :header-rows: 1
 
     * - Remote Host
       - Port

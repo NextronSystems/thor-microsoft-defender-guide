@@ -1,10 +1,5 @@
-.. THOR Cloud Microsoft Defender ATP documentation master file, created by
-   sphinx-quickstart on Tue Apr  6 10:33:56 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-THOR with Microsoft Defender ATP Integration Guide
-=============================================================
+THOR with Microsoft Defender for Endpoint
+=========================================
 
 .. toctree::
    :maxdepth: 2
@@ -12,7 +7,7 @@ THOR with Microsoft Defender ATP Integration Guide
    :caption: Contents:
 
    usage/requirements
-   usage/retrieve-and-configure-thor-seed
+   usage/thor-seed
    usage/start-a-thor-scan
    usage/faqs
    usage/links-and-references
