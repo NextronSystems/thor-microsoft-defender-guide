@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'THOR Cloud Microsoft Defender ATP'
+project = 'THOR Cloud Microsoft Defender for Endpoint'
 copyright = '2021, Nextron Systems GmbH'
 author = 'Nextron Systems GmbH'
 
@@ -103,97 +103,11 @@ html_css_files = [
     'css/custom.css',
 ]
 
-# Custom sidebar templates, must be a dictionary that maps document names
-# to template names.
-#
-# The default sidebars (for documents that don't match any pattern) are
-# defined by theme itself.  Builtin themes are using these templates by
-# default: ``['localtoc.html', 'relations.html', 'sourcelink.html',
-# 'searchbox.html']``.
-#
-# html_sidebars = {}
-
-
-# -- Options for HTMLHelp output ---------------------------------------------
-
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'THOR Cloud Microsoft Defender ATP'
-
-
-# -- Options for LaTeX output ------------------------------------------------
-
-latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    #
-    # 'papersize': 'letterpaper',
-
-    # The font size ('10pt', '11pt' or '12pt').
-    #
-    # 'pointsize': '10pt',
-
-    # Additional stuff for the LaTeX preamble.
-    #
-    # 'preamble': '',
-
-    # Latex figure (float) alignment
-    #
-    # 'figure_align': 'htbp',
-}
-
-# Grouping the document tree into LaTeX files. List of tuples
-# (source start file, target name, title,
-#  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-    (master_doc, 'THORCloudMicrosoftDefenderATP.tex', 'THOR Cloud Microsoft Defender ATP Documentation',
-     'Nextron Systems GmbH', 'manual'),
-]
-
-
-# -- Options for manual page output ------------------------------------------
-
-# One entry per manual page. List of tuples
-# (source start file, name, description, authors, manual section).
-man_pages = [
-    (master_doc, 'thorcloudmicrosoftdefenderatp', 'THOR Cloud Microsoft Defender ATP Documentation',
-     [author], 1)
-]
-
-
-# -- Options for Texinfo output ----------------------------------------------
-
-# Grouping the document tree into Texinfo files. List of tuples
-# (source start file, target name, title, author,
-#  dir menu entry, description, category)
-texinfo_documents = [
-    (master_doc, 'THORCloudMicrosoftDefenderATP', 'THOR Cloud Microsoft Defender ATP Documentation',
-     author, 'THORCloudMicrosoftDefenderATP', 'One line description of project.',
-     'Miscellaneous'),
-]
-
-
-# -- Options for Epub output -------------------------------------------------
-
-# Bibliographic Dublin Core info.
-epub_title = project
-
-# The unique identifier of the text. This can be a ISBN number
-# or the project homepage.
-#
-# epub_identifier = ''
-
-# A unique identification for the text.
-#
-# epub_uid = ''
+htmlhelp_basename = 'THOR Cloud Microsoft Defender for Endpoint'
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
-
-# -- Extension configuration -------------------------------------------------
-
-# -- Options for intersphinx extension ---------------------------------------
-
-# Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'https://docs.python.org/': None}
 
 # Enable -- to -
 smartquotes = False
