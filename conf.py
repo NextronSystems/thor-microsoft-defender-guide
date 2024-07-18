@@ -1,10 +1,11 @@
+import os
+
 project = 'THOR Cloud Microsoft Defender for Endpoint'
 version="1.0"
 copyright = '2021, Nextron Systems GmbH'
 author = 'Nextron Systems GmbH'
 extensions = [
     'sphinx.ext.autosectionlabel',
-    'sphinx_rtd_theme'
 ]
 templates_path = ['_templates']
 source_suffix = '.rst'
@@ -20,6 +21,12 @@ html_logo = "images/html/thor-logo.png"
 html_favicon = "images/html/favicon.ico"
 html_static_path = ['_static']
 html_css_files = ['css/custom.css',]
+html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
+if os.environ.get("READTHEDOCS", "") == "True":
+    if "html_context" not in globals():
+        html_context = {}
+    html_context["READTHEDOCS"] = True
+
 epub_title = project
 epub_exclude_files = ['search.html']
 intersphinx_mapping = {'https://docs.python.org/': None}
