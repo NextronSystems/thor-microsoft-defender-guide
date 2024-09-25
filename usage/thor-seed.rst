@@ -8,7 +8,7 @@ and a valid license from different sources, and execute a THOR scan.
 
 If you want to use the "Live Response" feature of Microsoft Defender
 for Endpoint on any other Operating System than Windows, you can use
-THOR Cloud or additionally create your own scripts.
+:ref:`usage/thor-cloud:thor cloud` or additionally create your own scripts.
 
 Download THOR Seed using Voucher Trials
 ---------------------------------------
