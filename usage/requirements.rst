@@ -103,7 +103,7 @@ On Investigated Workstations
       - 443/tcp
 
 .. hint:: 
-    Abov FQDNs resolve to multiple IP addresses. See https://www.nextron-systems.com/hosts/.
+    Above FQDNs resolve to multiple IP addresses. See https://www.nextron-systems.com/hosts/.
 
 Web Proxies
 ^^^^^^^^^^^
