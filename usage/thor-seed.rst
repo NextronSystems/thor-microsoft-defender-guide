@@ -6,9 +6,13 @@ This section focuses on our powershell script ``thor-seed.ps1``.
 THOR Seed is a script which can be configured to retrieve THOR
 and a valid license from different sources, and execute a THOR scan.
 
-If you want to use the "Live Response" feature of Microsoft Defender
-for Endpoint on any other Operating System than Windows, you can use
-:ref:`usage/thor-cloud:thor cloud` or additionally create your own scripts.
+If you want to use the "Live Response" feature in conjunction with THOR
+on any other Operating System than Windows, you can use
+:ref:`usage/thor-cloud:thor cloud`, or create your own scripts.
+
+.. hint::
+   THOR Seed is only available as a powershell script, hence it can only be
+   executed on Windows systems.
 
 Download THOR Seed using Voucher Trials
 ---------------------------------------
