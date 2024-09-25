@@ -92,13 +92,18 @@ On Investigated Workstations
 .. list-table:: Table 3 - Remote Hosts
     :header-rows: 1
 
-    * - Remote Host
+    * - Variant
+      - Remote Host
       - Port
-    * - cloud.nextron-systems.com
+    * - THOR Seed
+      - cloud.nextron-systems.com
+      - 443/tcp
+    * - THOR Cloud
+      - thor-cloud.nextron-services.com
       - 443/tcp
 
 .. hint:: 
-    this FQDN resolves to multiple IP addresses. See https://www.nextron-systems.com/hosts/.
+    Abov FQDNs resolve to multiple IP addresses. See https://www.nextron-systems.com/hosts/.
 
 Web Proxies
 ^^^^^^^^^^^

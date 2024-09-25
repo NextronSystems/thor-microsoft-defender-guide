@@ -8,7 +8,7 @@ THOR with Microsoft Defender for Endpoint
 
    usage/requirements
    usage/thor-seed
-   usage/start-a-thor-scan
+   usage/thor-cloud
    usage/faqs
    usage/links-and-references
 
