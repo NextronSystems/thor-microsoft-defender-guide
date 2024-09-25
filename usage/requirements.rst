@@ -56,6 +56,10 @@ a live response session.
 
 .. [1] thor-seed.ps1 is an unsigned powershell script
 
+.. hint::
+  We recommend that you sign your scripts with a code signing certificate
+  to avoid the need to change this setting.
+
 Hardware Requirements
 ---------------------
 
