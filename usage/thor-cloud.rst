@@ -58,7 +58,7 @@ Run THOR Cloud Launcher
 After uploading THOR Seed to the Live Response script library, you can
 start the script with the "run" command.
 
-.. figure:: ../images/run-thor-seed.png
-   :alt: Run thor-seed.ps1 in Live Response session
+.. figure:: ../images/run_thor-launcher.png
+   :alt: Run thor-launcher.sh in Live Response session
 
    Run thor-seed.ps1 in Live Response session
