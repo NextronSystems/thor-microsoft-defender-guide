@@ -1,8 +1,8 @@
 import os
 
-project = 'THOR Cloud Microsoft Defender for Endpoint'
+project = 'THOR with Microsoft Defender for Endpoint'
 version="1.0"
-copyright = '2021, Nextron Systems GmbH'
+copyright = '2024, Nextron Systems GmbH'
 author = 'Nextron Systems GmbH'
 extensions = [
     'sphinx.ext.autosectionlabel',
