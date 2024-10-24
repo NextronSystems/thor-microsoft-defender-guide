@@ -45,7 +45,8 @@ the THOR Cloud Launcher script into the Live Response script library.
    Upload Button
 
 Make sure to check "Overwrite file" to replace an older version of THOR
-Seed in your library.
+Seed in your library if needed. Make sure you are using the correct script
+for your target OS.
 
 .. figure:: ../images/upload-thor-cloud-launcher.png
    :alt: Upload THOR Seed
@@ -58,7 +59,27 @@ Run THOR Cloud Launcher
 After uploading THOR Seed to the Live Response script library, you can
 start the script with the "run" command.
 
-.. figure:: ../images/run_thor-launcher.png
+.. figure:: ../images/run_thor-launcher1.png
    :alt: Run thor-launcher.sh in Live Response session
 
-   Run thor-seed.ps1 in Live Response session
+   Run thor-seed.sh in Live Response session on Linux
+
+.. figure:: ../images/run_thor-launcher2.png
+   :alt: Run thor-launcher.ps1 in Live Response session on Windows
+
+   Run thor-seed.ps1 in Live Response session on Windows
+
+You can see the status of the running scan in your Campaign View:
+
+.. figure:: ../images/thor_cloud-running.png
+   :alt: Running THOR via Live Response on Linux
+
+   Running THOR via Live Response on Linux
+
+
+You can close the Live Response Session if you want to, since the THOR
+process will continue to run in the background.
+
+You can reuse the Thor-Launcher scripts for other systems, as the only
+unique part is the Campaign ID. If you want to scan hosts within another campaign,
+make sure to use the script from the other campaign.
