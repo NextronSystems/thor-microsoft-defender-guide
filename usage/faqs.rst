@@ -78,5 +78,19 @@ the thor64.exe process that still runs in the background. It will show
 you information on the log file and print commands that you can use to
 download the log file and HTML report once THOR finished its work.
 
-THOR Cloud
-----------
+THOR Seed is using multiple Licenses
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+In certain configurations, THOR Seed might use multiple licenses, even though
+you only issued a scan on one endpoint. This is due to the fact that Defender
+for Endpoint might be configured to execute certain files upon detection in
+a sandbox. The problem with this is that the sandbox is actually issuing
+a license from our portal, which can't be reused by the customer. To circumvent
+this, you have a few options:
+
+- Define Exclusions for the ``thor-seed.ps1`` script (When adding exclusions,
+  make sure you're excluding the script from both **cloud protection** and **behavioral analysis (sandbox)** .)
+
+- Sign your version of the ``thor-seed.ps1`` script with a code signing certificate
+
+- Make sure your on premise proxy does not use sandboxing, or set an exclusion
