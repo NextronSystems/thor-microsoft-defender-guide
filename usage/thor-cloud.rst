@@ -12,7 +12,7 @@ end users to download and execute it themselves.
 Download THOR Cloud Launcher Script
 -----------------------------------
 
-Once you logged into your THOR Cloud account, create a new Campaign
+Once you have logged into your THOR Cloud account, create a new Campaign
 or use an existing one. In the Campaign details, download the Launcher
 in the top right corner. You need to download the Script for your Operating
 System, as the Live Response feature only allows the execution of scripts.
@@ -44,25 +44,25 @@ the THOR Cloud Launcher script into the Live Response script library.
 
    Upload Button
 
-Make sure to check "Overwrite file" to replace an older version of THOR
-Seed in your library if needed. Make sure you are using the correct script
-for your target OS.
+Make sure to check "Overwrite file" to replace an older version of the
+THOR Cloud Launcher in your library if needed. Make sure you are using the
+correct script for your target OS.
 
 .. figure:: ../images/upload-thor-cloud-launcher.png
-   :alt: Upload THOR Seed
+   :alt: Upload THOR Cloud Launcher
 
-   Upload THOR Seed
+   Upload THOR Cloud Launcher
 
 Run THOR Cloud Launcher
 -----------------------
 
-After uploading THOR Seed to the Live Response script library, you can
-start the script with the "run" command.
+After uploading the THOR Cloud Launcher to the Live Response script library,
+you can start the script with the "run" command.
 
 .. figure:: ../images/run_thor-launcher1.png
    :alt: Run thor-launcher.sh in Live Response session
 
-   Run thor-seed.sh in Live Response session on Linux
+   Run thor-launcher.sh in Live Response session on Linux
 
 .. figure:: ../images/run_thor-launcher2.png
    :alt: Run thor-launcher.ps1 in Live Response session on Windows
@@ -80,6 +80,6 @@ You can see the status of the running scan in your Campaign View:
 You can close the Live Response Session if you want to, since the THOR
 process will continue to run in the background.
 
-You can reuse the Thor-Launcher scripts for other systems, as the only
+You can reuse the THOR Cloud Launcher scripts for other systems, as the only
 unique part is the Campaign ID. If you want to scan hosts within another campaign,
 make sure to use the script from the other campaign.

@@ -7,7 +7,7 @@ THOR Seed
 Scan is terminating
 ^^^^^^^^^^^^^^^^^^^
 
-Live response applies a rather disadvantages timeout for PowerShell
+Live response applies a rather disadvantageous timeout for PowerShell
 scripts run within a Live Response session, which is 30 minutes by
 default. If a scan takes longer to complete, it gets terminated.
 
@@ -62,8 +62,8 @@ Simply run a cleanup before starting a new scan.
    C:\> run thor-seed.ps1 -parameters "-Cleanup"
 
 
-THOR alreay running error
-^^^^^^^^^^^^^^^^^^^^^^^^^
+THOR already running error
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 It is possible that you've interrupted a previous script run with CTRL+C
 and got back to the shell. In Live Response, sub processes started by

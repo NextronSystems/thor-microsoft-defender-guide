@@ -61,10 +61,10 @@ THOR scan and cleans up afterwards.
 | https://github.com/NextronSystems/nextron-helper-scripts/tree/master/thor-seed
 
 The version that you've retrieved from our customer portal already
-contains a token that is connected with you voucher trial or contract.
+contains a token that is connected with your voucher trial or contract.
 It is also configured to use our cloud systems to retrieve THOR
 packages. (users of the ASGARD platform can also use an on-premise
-ASGARD server to retrieve package from that local system)
+ASGARD server to retrieve packages from that local system)
 
 Modify the Default Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -89,7 +89,7 @@ A list of all options can be found here:
 https://github.com/NextronSystems/nextron-helper-scripts/tree/master/thor-help
 
 The `THOR manual <https://thor-manual.nextron-systems.com/en/latest/>`_ contains a complete description of most of these
-features and can downloaded from the “Downloads” section in the Nextron
+features and can be downloaded from the “Downloads” section in the Nextron
 customer portal.
 
 Define False Positive Filters
@@ -170,7 +170,7 @@ status of THOR in the background or find the log files that THOR
 produces during the scan and the HTML report that is generated at the
 end of the scan.
 
-Users can check of THOR is still running with
+Users can check if THOR is still running with
 
 .. code-block:: doscon
 
