@@ -58,7 +58,7 @@ Old log files prevent new scan
 Simply run a cleanup before starting a new scan.
 
 .. code-block:: doscon
-   
+
    C:\> run thor-seed.ps1 -parameters "-Cleanup"
 
 

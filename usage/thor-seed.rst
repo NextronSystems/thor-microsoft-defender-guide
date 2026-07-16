@@ -159,7 +159,7 @@ process "thor64.exe" is still running.
 
 .. figure:: ../images/thor-seed-timeout.png
    :alt: Interrupted scan due to exceeded timeout
- 
+
    Interrupted scan due to exceeded timeout
 
 Check the Scan Status
@@ -201,21 +201,21 @@ and remove them from the end system.
 It shows a list of three actions to proceed:
 
 1. Retrieve the available log files and HTML reports
-   
+
    .. code-block:: doscon
-      
+
       C:\> get file "C:\ProgramData\Microsoft\Windows Defender Advanced…
 
 2. Use the following command to clean-up the output directory
-   
+
    .. code-block:: doscon
-   
+
       C:\> run thor-seed.ps1 -parameters "-Cleanup"
 
 3. Start a new THOR scan with
-   
+
    .. code-block:: doscon
-   
+
       C:\> run thor-seed.ps1
 
 .. figure:: ../images/thor-seed-finished.png
@@ -238,11 +238,11 @@ Simply copy and paste the full "getfile" command line to retrieve the
 HTML report.
 
 .. code-block:: doscon
-   
+
    C:\> getfile "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\client-atp-01_thor_2021-02-02_1817.html"
 
 .. figure:: ../images/thor-seed-retrive-results-2.png
-   :alt: 
+   :alt:
 
    HTML Report Download in Browser
 
@@ -251,14 +251,14 @@ HTML report.
 
    THOR HTML Report
 
-Cleanup 
+Cleanup
 -------
 
 In order to run another THOR scan, you have to remove all previous log
 files and HTML reports using the following command:
 
 .. code-block:: doscon
-   
+
    C:\> run thor-seed.ps1 -parameters "-Cleanup"
 
 After removing the text logs and HTML reports you can start a new scan
