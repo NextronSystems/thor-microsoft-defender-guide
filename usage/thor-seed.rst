@@ -63,8 +63,8 @@ THOR scan and cleans up afterwards.
 The version that you've retrieved from our customer portal already
 contains a token that is connected with your voucher trial or contract.
 It is also configured to use our cloud systems to retrieve THOR
-packages. (users of the ASGARD platform can also use an on-premise
-ASGARD server to retrieve packages from that local system)
+packages. Users of the Management Center can also use said product
+to retrieve a valid package and license.
 
 Modify the Default Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
